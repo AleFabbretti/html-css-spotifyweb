@@ -1,0 +1,9 @@
+/* MAIN */
+main {
+    height: 100%;
+    width: calc(100% - 300px);
+    overflow-y: auto;
+    background-color: #141922;
+    padding-top: 90px;
+    color: white;
+}

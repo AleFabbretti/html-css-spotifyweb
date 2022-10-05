@@ -12,3 +12,56 @@ aside {
 aside .logo{
     padding: 1.25rem .9375rem;
 }
+
+aside nav {
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+    color: #a3a3a3;
+}
+
+aside h4{
+    color: white;
+    margin-bottom: 1.0625rem;
+}
+
+aside li{
+    padding: .3125rem;
+    align-items: center;
+}
+
+.li .plus{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: black;
+    background-color: #a3a3a3;
+    border: none;
+    cursor: pointer;
+    font-size: 1.125rem;
+}
+
+.install{
+    color: #a3a3a3;
+    margin-top: 250px;
+}
+.install img{
+    width: 20px;
+    filter: invert(60%);
+}
+@media screen and (max-width:600px) {
+    aside{
+        width: 3.125rem
+    }
+
+    aside .logo-small{
+        display: block;
+        padding: .3125rem .625rem;
+    }
+
+    .logo-small img{
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+    aside .logo{
+        display: none;
+    }
+}

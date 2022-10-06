@@ -10,5 +10,6 @@ body{
 }
 
 .page-container{
-    height: calc(100%-80px);
+    display: flex;
+    height: calc(100% - 80px);
 }

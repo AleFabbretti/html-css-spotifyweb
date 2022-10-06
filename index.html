@@ -19,7 +19,7 @@
     <!-- /header -->
 
     <!-- page-container flex -->
-    <div class="page-container flex">
+    <div class="page-container">
 
     <!-- aside -->
         <aside>
@@ -30,60 +30,75 @@
                 <img src="/img/logo-small.svg" alt="l-small">
             </div>
     <!-- Nav-Home -->
-            <nav class="nav">
-                <ul class="li">
-                    <li class="flex">
-                        <div><img class="image-width" src="/img/home.svg" alt="home"></div>
-                        <span class="padding-left">
-                            <small>Home</small>
-                        </span>
-                    </li>
-                    <li class="flex">
-                        <div><img class="image-width" src="/img/search.svg" alt="home"></div>
-                        <span class="padding-left">
-                            <small>Cerca</small>
-                        </span>
-                    </li>
-                    <li class="flex">
-                        <div><img class="image-width" src="/img//libreria.svg" alt="home"></div>
-                        <span class="padding-left">
-                            <small>La tua libreria</small>
-                        </span>
-                    </li>
-                </ul>
+            <nav>
+                <div class="nav-link">
+                    <div>
+                        <img class="image-width" src="img/home.svg" alt="home">
+                    </div>
+                    <div>
+                        <a class="home" href="#">Home</a>
+                    </div>
+                </div>
+                <div class="nav-link">
+                    <div>
+                        <img class="image-width" src="img/search.svg" alt="search">
+                    </div>
+                    <div>
+                        <a class="grey" href="#">Cerca</a>
+                    </div>
+                </div>
+                <div class="nav-link">
+                    <div>
+                        <img class="image-width" src="img/libreria.svg" alt="library">
+                    </div>
+                    <div>
+                        <a class="grey" href="#">La tua libreria</a>
+                    </div>
+                </div>
             </nav>
     <!-- /nav-Home -->
 
     <!-- playlist -->
             <nav class="playlist">
                 <h4>PLAYLIST</h4>
-                <ul class="li">
-                    <li>
-                        <button class="plus"><i class="fa-solid fa-plus"></i></button>
-                        <span class="padding-left">Crea Playlist</span>
-                    </li>
-                    <li><a href="#">Nome Playlist</a></li>
-                    <li><a href="#">Nome Playlist</a></li>
-                    <li><a href="#">Nome Playlist</a></li>
-                    <li><a href="#">Nome Playlist</a></li>
-                    <li><a href="#">Nome Playlist</a></li>
-                    <li><a href="#">Nome Playlist</a></li>
-                    <li><a href="#">Nome Playlist</a></li>
-                </ul>
+                <div class="pl-container flex">
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <div class="pl-text"> Crea Playlist</div>
+                </div>
+                <div class="new-playlist">
+                    <ul >
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                    </ul>
+                </div>
             </nav>
     <!-- /playlist -->
 
     <!-- install-app -->
-            <nav class="flex install">
-                <div><img src="/img/download.svg" alt="download"></div>
-                <div class="padding-left">Installa app</div>
-            </nav>
+            <div class="account">
+                <nav class="install flex">
+                    <span><img src="img/download.svg" alt="download"></span>
+                    <span class="ml-10">Installa app</span>  
+                </nav>
+                <div class="profile flex">
+                    <div class="user">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="ml-20"><strong>John Doe</strong></div>
+                </div>
+            </div>
         </aside>
+    <!-- /install-app -->
+
     <!-- /aside -->
 
     <!-- main -->
         <main>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, mollitia commodi omnis iste nisi soluta hic alias illum eveniet fugiat enim provident possimus dolorum, quia maiores libero. Blanditiis, quas ducimus.</p>
         </main>
     <!-- /main -->
 

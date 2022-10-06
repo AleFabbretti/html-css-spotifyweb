@@ -8,6 +8,10 @@ main {
     color: white;
 }
 
+.main-container{
+    padding: .625rem;
+}
+
 @media screen and (max-width:600px) {
     main{
         width: calc(100% - 50px);

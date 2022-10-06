@@ -15,10 +15,17 @@
     align-items: center;
 }
 
+.around{
+    justify-content: space-around;
+}
+
 .flex-between{
     justify-content: space-between;
 }
 
+.justify-center{
+    justify-content: center;
+}
 .image-width{
     width: 1.875rem;
     height: 1.875rem;
@@ -37,4 +44,8 @@ a{
 
 .ml-20{
     margin-left: 1.25rem;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }

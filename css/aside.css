@@ -34,8 +34,7 @@ aside nav {
 
 aside h4{
     color: white;
-    margin-bottom: 1.0625rem;
-    padding-left: 0.3125rem;
+    margin-bottom: .9375rem;
 }
 .pl-container{
     align-items: center;
@@ -61,7 +60,7 @@ aside h4{
 }
 
 .new-playlist li:not(:first-child){
-    padding-top: 1.25rem;
+    padding-top: .9375rem;
 }
 
 .new-playlist ul{

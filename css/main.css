@@ -1,17 +1,57 @@
 /* MAIN */
 main {
     height: 100%;
-    width: 100%;
+    width: calc(100% - 300px);
     overflow-y: auto;
     background-color: #141922;
     padding-top: 90px;
     color: white;
 }
+.main-container li {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+}
 
-.main-container{
+main h2 {
+    padding: 1.25rem .625rem;
+}
+
+.main-container a{
+    color: grey;
+}
+
+.recently .col{
+    width: calc(100% / 6);
     padding: .625rem;
 }
 
+.description{
+    text-align: center;
+}
+.block{
+    display: block;
+}
+
+.description .title{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: .3125rem;
+    margin-top: 1.25rem;
+    font-weight: bold;
+}
+
+.album{
+    height: 11.25rem;
+    width: 11.25rem;
+}
+
+.personal h5{
+    padding: 0 0 1.875rem .625rem;
+    color: grey;
+
+}
 @media screen and (max-width:600px) {
     main{
         width: calc(100% - 50px);

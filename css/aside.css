@@ -113,7 +113,8 @@ aside h4{
 
     aside .logo-small{
         display: block;
-        padding: .3125rem .625rem;
+        padding-top: .3125rem;
+        padding-left: .625rem;
     }
 
     .logo-small img{
@@ -122,5 +123,29 @@ aside h4{
     }
     aside .logo{
         display: none;
+    }
+
+    aside a, .playlist, aside .ml-20, aside .ml-10 {
+        display: none;
+    }
+
+    aside nav {
+        padding-top: .625rem;
+        padding-left: .625rem;
+    }
+
+    aside i {
+        font-size: 1.375rem;
+        padding-bottom: .25rem;
+    }
+
+    .install img{
+        margin: 0 .1875rem;
+    }
+
+    .profile {
+        margin: 0;
+        border: none;
+        padding: .75rem;
     }
 }

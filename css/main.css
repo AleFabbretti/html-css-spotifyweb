@@ -5,7 +5,7 @@ main {
     overflow-y: auto;
     background-color: #141922;
     padding-top: 90px;
-    overflow-x: hidden;
+    overflow-x: auto;
     color: white;
 }
 .main-container li {
@@ -93,6 +93,23 @@ section h5{
         padding: 10px;
     }
 
+    .img-hover{
+        position: absolute;
+        width: 162px;
+        height: 162px;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .play-hover{
+        position: absolute;
+        left: 45px;
+        top: 35px;
+        color: white;
+        font-size: 40px;
+    }
+
 }
 
 @media screen and (max-width:700px) {
@@ -113,4 +130,20 @@ section h5{
         padding: 10px;
     }
 
+    .img-hover{
+        position: absolute;
+        width: 207.5px;
+        height: 207.5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .play-hover{
+        position: absolute;
+        left: 60px;
+        top: 65px;
+        color: white;
+        font-size: 40px;
+    }
 }

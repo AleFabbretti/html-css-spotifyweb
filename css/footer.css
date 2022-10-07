@@ -30,6 +30,7 @@ footer{
 
 .listening h5{
     color: white;
+    cursor: pointer;
 }
 
 .listening h6{
@@ -62,6 +63,7 @@ footer{
     width: 430px;
     background-color: #5a5a5a;
     border-radius: 50px;
+    position: relative;
 }
 
 .live-time{
@@ -69,6 +71,17 @@ footer{
     width: 20%;
     background-color: white;
     border-radius: 50px;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -4px;
+    left: 20%;
+    cursor: pointer;
 }
 
 .min-live{
@@ -103,6 +116,33 @@ footer{
     background-color: white;
     border-radius: 50px;
 }
+
+/* HOVER-FOOTER */
+.listening .name h6:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.action i:hover{
+    color: white;
+}
+
+.col-middle .fa-circle-play:hover{
+    transform: scale(110%);
+}
+
+.live-time:hover{
+    height: 100%;
+    width: 20%;
+    background-color: greenyellow;
+    border-radius: 50px;
+}
+
+.circle:hover{
+    display: block;
+}
+
 @media screen and (max-width:1100px) {
     .col-right, .col-left{
         width: 30%;
@@ -111,6 +151,8 @@ footer{
     .col-middle{
         width: 40%;
     }
+
+    
     
 }
 @media screen and (max-width:700px) {

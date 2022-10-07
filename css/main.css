@@ -5,6 +5,7 @@ main {
     overflow-y: auto;
     background-color: #141922;
     padding-top: 90px;
+    overflow-x: hidden;
     color: white;
 }
 .main-container li {

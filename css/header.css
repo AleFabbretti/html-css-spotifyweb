@@ -20,6 +20,10 @@ header button{
     cursor: pointer;
 }
 
+/* HOVER */
+header button:hover{
+    scale: 105%;
+}
 @media screen and (max-width: 600px) {
     header {
         left: 50px;

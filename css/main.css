@@ -25,6 +25,7 @@ main h2 {
 .col{
     width: calc(100% / 6);
     padding: .625rem;
+    position: relative;
 }
 
 .description{
@@ -55,6 +56,35 @@ section h5{
 .circle{
     border-radius: 50%;
 }
+
+/* HOVER-MAIN */
+
+.h-main a:hover{
+    color: white;
+}
+
+/* RECENTLY PLAYED */
+.img-hover{
+    position: absolute;
+    width: 191px;
+    height: 191px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.play-hover{
+    position: absolute;
+    left: 55px;
+    top: 55px;
+    color: white;
+    font-size: 40px;
+}
+
+.img-hover:hover{
+    opacity: 1;
+}
+/* /RECENTLY PLAYED */
 
 @media screen and (max-width:1100px) {
     .col {

@@ -4,3 +4,44 @@ footer{
     height: 80px;
     background-color: #282828;
 }
+
+.footer{
+    width: 100%;
+    height: 100%;
+}
+
+.footer .col-left{
+    width: 30%;
+}
+
+.footer .col-middle{
+    flex-grow: 1;
+}
+
+.footer .col-right{
+    width: 30%;
+}
+
+.img-footer{
+    max-width: 42px;
+    max-height: 42px;
+    margin-left: 10px;
+}
+
+.listening h5{
+    color: white;
+}
+
+.listening h6{
+    display: inline;
+    color: #5a5a5a;
+    font-size: 9px;
+}
+
+.action{
+    margin-left: 30px;
+}
+.action i{
+    margin-right: 10px;
+    color: #5a5a5a;
+}

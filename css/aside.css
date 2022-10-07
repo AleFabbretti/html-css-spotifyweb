@@ -4,8 +4,7 @@ aside {
     background-color: black;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
-    height: 100%;
+    overflow-y: hidden;
 }
 
 .logo img{
@@ -17,7 +16,7 @@ aside .logo{
     padding: 1.25rem .9375rem;
 }
 
-aside nav {
+aside nav{
     padding-top: 1.25rem;
     padding-left: 1.25rem;
     color: #a3a3a3;
@@ -32,18 +31,25 @@ aside nav {
     color: white;
 }
 
+.playlist{
+    flex-grow: 1;
+}
+
 aside h4{
     color: white;
     margin-bottom: .9375rem;
 }
+
 .pl-container{
     align-items: center;
     margin-top: .625rem;
     margin-bottom: 1.25rem;
 }
+
 .pl-text{
     padding-left: .625rem;
 }
+
 .plus{
     width: 2.5rem;
     height: 2.5rem;
@@ -54,20 +60,17 @@ aside h4{
     font-size: 1.125rem;
 }
 
-.new-playlist{
+
+.playlist li:not(:first-child){
+    padding-top: .625rem;
+}
+
+.playlist ul{
     flex-grow: 1;
-    overflow-y: hidden;
-}
-
-.new-playlist li:not(:first-child){
-    padding-top: .9375rem;
-}
-
-.new-playlist ul{
     overflow-y: auto;
-    height: 100%;
 }
-.new-playlist a{
+
+.playlist li a{
     color: gray;
     font-size: .875rem;
 }
